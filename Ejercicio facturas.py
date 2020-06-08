@@ -10,6 +10,6 @@ while op != 'T':
         facturas.pop(serie,0)
     op = input('¿Deseas añadir una factura (A), pagarla (P) o terminarlo (T)? ')
 
-print('Facturas pendientes de pago.')
+print('Facturas pendientes de pago de la empresa.')
 for k,v in facturas.items():
     print(k,v)
